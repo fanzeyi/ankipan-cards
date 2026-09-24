@@ -20,7 +20,8 @@ the reading), Listening (hear the word) and Speaking (say the word).
 ## Adding a deck with one link
 
 On an iPhone with Ankipan installed, an `ankipan://import?url=…` link opens the deck's import preview
-directly. GitHub doesn't make these links tappable, so copy one into Safari's address bar:
+directly. [fanzeyi.github.io/ankipan-cards](https://fanzeyi.github.io/ankipan-cards/) has them as buttons;
+GitHub doesn't make them tappable here, so on this page copy one into Safari's address bar:
 
 ```
 JLPT N5: ankipan://import?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffanzeyi%2Fankipan-cards%2Fmain%2Fjapanese%2Fjlpt-n5-vocabulary.ankipan
