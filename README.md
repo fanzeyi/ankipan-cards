@@ -17,6 +17,23 @@ the reading), Listening (hear the word) and Speaking (say the word).
 | JLPT N2 Vocabulary | 1905 | [japanese/jlpt-n2-vocabulary.ankipan](japanese/jlpt-n2-vocabulary.ankipan) |
 | JLPT N1 Vocabulary | 2699 | [japanese/jlpt-n1-vocabulary.ankipan](japanese/jlpt-n1-vocabulary.ankipan) |
 
+## Adding a deck with one link
+
+On an iPhone with Ankipan installed, an `ankipan://import?url=…` link opens the deck's import preview
+directly. GitHub doesn't make these links tappable, so copy one into Safari's address bar:
+
+```
+JLPT N5: ankipan://import?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffanzeyi%2Fankipan-cards%2Fmain%2Fjapanese%2Fjlpt-n5-vocabulary.ankipan
+JLPT N4: ankipan://import?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffanzeyi%2Fankipan-cards%2Fmain%2Fjapanese%2Fjlpt-n4-vocabulary.ankipan
+JLPT N3: ankipan://import?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffanzeyi%2Fankipan-cards%2Fmain%2Fjapanese%2Fjlpt-n3-vocabulary.ankipan
+JLPT N2: ankipan://import?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffanzeyi%2Fankipan-cards%2Fmain%2Fjapanese%2Fjlpt-n2-vocabulary.ankipan
+JLPT N1: ankipan://import?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffanzeyi%2Fankipan-cards%2Fmain%2Fjapanese%2Fjlpt-n1-vocabulary.ankipan
+```
+
+To build one for any deck file, put its https address, URL-encoded, after `url=` (a GitHub `blob` page
+link works too). Only http(s) addresses are accepted. A deck added from a link remembers where it came
+from, so it can be updated from there later.
+
 ## Sources
 
 - JLPT word lists: [tanos.co.uk](http://www.tanos.co.uk/jlpt/), via
