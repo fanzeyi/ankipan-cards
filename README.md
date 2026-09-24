@@ -6,16 +6,23 @@ download the file and open it with Ankipan.
 
 ## Japanese
 
-| Deck | Words | Cards | Link |
-|---|---|---|---|
-| JLPT N5 Vocabulary | 718 | Recognition, Production (type the reading), Listening, Speaking (say the word) | [japanese/jlpt-n5-vocabulary.ankipan](japanese/jlpt-n5-vocabulary.ankipan) |
+Each deck has four card kinds: Recognition (word → reading and meaning), Production (meaning → type
+the reading), Listening (hear the word) and Speaking (say the word).
+
+| Deck | Words | Link |
+|---|---|---|
+| JLPT N5 Vocabulary | 718 | [japanese/jlpt-n5-vocabulary.ankipan](japanese/jlpt-n5-vocabulary.ankipan) |
+| JLPT N4 Vocabulary | 668 | [japanese/jlpt-n4-vocabulary.ankipan](japanese/jlpt-n4-vocabulary.ankipan) |
+| JLPT N3 Vocabulary | 2140 | [japanese/jlpt-n3-vocabulary.ankipan](japanese/jlpt-n3-vocabulary.ankipan) |
+| JLPT N2 Vocabulary | 1905 | [japanese/jlpt-n2-vocabulary.ankipan](japanese/jlpt-n2-vocabulary.ankipan) |
+| JLPT N1 Vocabulary | 2699 | [japanese/jlpt-n1-vocabulary.ankipan](japanese/jlpt-n1-vocabulary.ankipan) |
 
 ## Sources
 
 - JLPT word lists: [tanos.co.uk](http://www.tanos.co.uk/jlpt/), via
   [jamsinclair/open-anki-jlpt-decks](https://github.com/jamsinclair/open-anki-jlpt-decks) (MIT,
-  see `sources/jlpt/LICENSE-open-anki-jlpt-decks`). `sources/jlpt/build.py` rebuilds the deck from
-  the CSV.
+  see `sources/jlpt/LICENSE-open-anki-jlpt-decks`). `sources/jlpt/build.py` rebuilds the decks from
+  the CSVs.
 
 Deck files keep their paths: Ankipan offers updates only for a file fetched again from the address
 it was added from.
