@@ -1,7 +1,7 @@
 {
   "format": 1,
   "id": "06acde9b-7466-4c53-ae24-56daae3279c3",
-  "version": 1,
+  "version": 2,
   "name": "JLPT N5 Vocabulary",
   "description": "All 718 JLPT N5 words with kana readings and English meanings. Word list from tanos.co.uk via github.com/jamsinclair/open-anki-jlpt-decks (MIT).",
   "homepage": "https://github.com/fanzeyi/ankipan-cards",
@@ -17,7 +17,9 @@
   ],
   "kinds": [
     {"ord": 0, "name": "Recognition", "prompt": ["Word"], "answer": ["Reading", "Meaning"], "read": {"back": "Reading"}},
-    {"ord": 1, "name": "Production", "prompt": ["Meaning"], "answer": ["Word", "Reading"], "check": {"field": "Reading", "mode": "typed", "alsoAccept": ["Word"]}, "read": {"back": "Word"}}
+    {"ord": 1, "name": "Production", "prompt": ["Meaning"], "answer": ["Word", "Reading"], "check": {"field": "Reading", "mode": "typed", "alsoAccept": ["Word"]}, "read": {"back": "Word"}},
+    {"ord": 2, "name": "Listening", "prompt": ["Word"], "hidden": ["Word"], "read": {"front": "Word"}, "answer": ["Meaning", "Word", "Reading"]},
+    {"ord": 3, "name": "Speaking", "prompt": ["Word"], "answer": ["Reading", "Meaning"], "check": {"field": "Word", "mode": "spoken", "alsoAccept": ["Reading"]}}
   ],
   "notes": [
     {"guid": "HI-.Ij?HS~", "values": ["ああ", "ああ", "Ah!, Oh!"]},

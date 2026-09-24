@@ -47,6 +47,10 @@ pkg = {
          "read": {"back": "Reading"}},
         {"ord": 1, "name": "Production", "prompt": ["Meaning"], "answer": ["Word", "Reading"],
          "check": {"field": "Reading", "mode": "typed", "alsoAccept": ["Word"]}, "read": {"back": "Word"}},
+        {"ord": 2, "name": "Listening", "prompt": ["Word"], "hidden": ["Word"], "read": {"front": "Word"},
+         "answer": ["Meaning", "Word", "Reading"]},
+        {"ord": 3, "name": "Speaking", "prompt": ["Word"], "answer": ["Reading", "Meaning"],
+         "check": {"field": "Word", "mode": "spoken", "alsoAccept": ["Reading"]}},
     ],
     "notes": notes,
 }

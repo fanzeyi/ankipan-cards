@@ -8,7 +8,7 @@ download the file and open it with Ankipan.
 
 | Deck | Words | Cards | Link |
 |---|---|---|---|
-| JLPT N5 Vocabulary | 718 | Recognition, Production (type the reading) | [japanese/jlpt-n5-vocabulary.ankipan](japanese/jlpt-n5-vocabulary.ankipan) |
+| JLPT N5 Vocabulary | 718 | Recognition, Production (type the reading), Listening, Speaking (say the word) | [japanese/jlpt-n5-vocabulary.ankipan](japanese/jlpt-n5-vocabulary.ankipan) |
 
 ## Sources
 
